@@ -9,13 +9,24 @@
 /* Begin PBXBuildFile section */
 		B55E93B51BC4C86D002E67EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E93B41BC4C86D002E67EF /* main.m */; };
 		B55E93B81BC4C86D002E67EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E93B71BC4C86D002E67EF /* AppDelegate.m */; };
-		B55E93BB1BC4C86D002E67EF /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E93BA1BC4C86D002E67EF /* GameScene.m */; };
-		B55E93BD1BC4C86D002E67EF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B55E93BC1BC4C86D002E67EF /* GameScene.sks */; };
-		B55E93C01BC4C86D002E67EF /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E93BF1BC4C86D002E67EF /* GameViewController.m */; };
 		B55E93C31BC4C86D002E67EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55E93C11BC4C86D002E67EF /* Main.storyboard */; };
 		B55E93C51BC4C86D002E67EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55E93C41BC4C86D002E67EF /* Images.xcassets */; };
 		B55E93C81BC4C86D002E67EF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B55E93C61BC4C86D002E67EF /* LaunchScreen.xib */; };
 		B55E93D41BC4C86D002E67EF /* Try_Infinity_DodgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E93D31BC4C86D002E67EF /* Try_Infinity_DodgeTests.m */; };
+		B55E94DE1BC53BCB002E67EF /* GameCenterUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E94C51BC53BCA002E67EF /* GameCenterUtil.m */; };
+		B55E94DF1BC53BCB002E67EF /* MyUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E94C71BC53BCA002E67EF /* MyUtils.m */; };
+		B55E94E01BC53BCB002E67EF /* MyADView.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E94C91BC53BCA002E67EF /* MyADView.m */; };
+		B55E94E11BC53BCB002E67EF /* BitmapUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E94CB1BC53BCA002E67EF /* BitmapUtil.m */; };
+		B55E94E21BC53BCB002E67EF /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E94CD1BC53BCA002E67EF /* CommonUtil.m */; };
+		B55E94E31BC53BCB002E67EF /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E94CF1BC53BCA002E67EF /* GameScene.m */; };
+		B55E94E41BC53BCB002E67EF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B55E94D01BC53BCA002E67EF /* GameScene.sks */; };
+		B55E94E51BC53BCB002E67EF /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E94D21BC53BCB002E67EF /* MyScene.m */; };
+		B55E94E61BC53BCB002E67EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E94D41BC53BCB002E67EF /* ViewController.m */; };
+		B55E94E71BC53BCB002E67EF /* GameMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E94D61BC53BCB002E67EF /* GameMenuViewController.m */; };
+		B55E94E81BC53BCB002E67EF /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E94D81BC53BCB002E67EF /* GameViewController.m */; };
+		B55E94E91BC53BCB002E67EF /* TextureHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E94DA1BC53BCB002E67EF /* TextureHelper.m */; };
+		B55E94EA1BC53BCB002E67EF /* SKBlade.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E94DC1BC53BCB002E67EF /* SKBlade.m */; };
+		B55E94EB1BC53BCB002E67EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55E94DD1BC53BCB002E67EF /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +45,38 @@
 		B55E93B41BC4C86D002E67EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B55E93B61BC4C86D002E67EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B55E93B71BC4C86D002E67EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B55E93B91BC4C86D002E67EF /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
-		B55E93BA1BC4C86D002E67EF /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
-		B55E93BC1BC4C86D002E67EF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		B55E93BE1BC4C86D002E67EF /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		B55E93BF1BC4C86D002E67EF /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		B55E93C21BC4C86D002E67EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B55E93C41BC4C86D002E67EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B55E93C71BC4C86D002E67EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B55E93CD1BC4C86D002E67EF /* Try_Infinity_DodgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Try_Infinity_DodgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55E93D21BC4C86D002E67EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B55E93D31BC4C86D002E67EF /* Try_Infinity_DodgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Try_Infinity_DodgeTests.m; sourceTree = "<group>"; };
+		B55E94C41BC53BCA002E67EF /* GameCenterUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCenterUtil.h; sourceTree = "<group>"; };
+		B55E94C51BC53BCA002E67EF /* GameCenterUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCenterUtil.m; sourceTree = "<group>"; };
+		B55E94C61BC53BCA002E67EF /* MyUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUtils.h; sourceTree = "<group>"; };
+		B55E94C71BC53BCA002E67EF /* MyUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUtils.m; sourceTree = "<group>"; };
+		B55E94C81BC53BCA002E67EF /* MyADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyADView.h; sourceTree = "<group>"; };
+		B55E94C91BC53BCA002E67EF /* MyADView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyADView.m; sourceTree = "<group>"; };
+		B55E94CA1BC53BCA002E67EF /* BitmapUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapUtil.h; sourceTree = "<group>"; };
+		B55E94CB1BC53BCA002E67EF /* BitmapUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapUtil.m; sourceTree = "<group>"; };
+		B55E94CC1BC53BCA002E67EF /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
+		B55E94CD1BC53BCA002E67EF /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
+		B55E94CE1BC53BCA002E67EF /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		B55E94CF1BC53BCA002E67EF /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		B55E94D01BC53BCA002E67EF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B55E94D11BC53BCB002E67EF /* MyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		B55E94D21BC53BCB002E67EF /* MyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		B55E94D31BC53BCB002E67EF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B55E94D41BC53BCB002E67EF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B55E94D51BC53BCB002E67EF /* GameMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMenuViewController.h; sourceTree = "<group>"; };
+		B55E94D61BC53BCB002E67EF /* GameMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMenuViewController.m; sourceTree = "<group>"; };
+		B55E94D71BC53BCB002E67EF /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		B55E94D81BC53BCB002E67EF /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		B55E94D91BC53BCB002E67EF /* TextureHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureHelper.h; sourceTree = "<group>"; };
+		B55E94DA1BC53BCB002E67EF /* TextureHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureHelper.m; sourceTree = "<group>"; };
+		B55E94DB1BC53BCB002E67EF /* SKBlade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBlade.h; sourceTree = "<group>"; };
+		B55E94DC1BC53BCB002E67EF /* SKBlade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBlade.m; sourceTree = "<group>"; };
+		B55E94DD1BC53BCB002E67EF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,11 +120,32 @@
 			children = (
 				B55E93B61BC4C86D002E67EF /* AppDelegate.h */,
 				B55E93B71BC4C86D002E67EF /* AppDelegate.m */,
-				B55E93B91BC4C86D002E67EF /* GameScene.h */,
-				B55E93BA1BC4C86D002E67EF /* GameScene.m */,
-				B55E93BC1BC4C86D002E67EF /* GameScene.sks */,
-				B55E93BE1BC4C86D002E67EF /* GameViewController.h */,
-				B55E93BF1BC4C86D002E67EF /* GameViewController.m */,
+				B55E94C41BC53BCA002E67EF /* GameCenterUtil.h */,
+				B55E94C51BC53BCA002E67EF /* GameCenterUtil.m */,
+				B55E94C61BC53BCA002E67EF /* MyUtils.h */,
+				B55E94C71BC53BCA002E67EF /* MyUtils.m */,
+				B55E94C81BC53BCA002E67EF /* MyADView.h */,
+				B55E94C91BC53BCA002E67EF /* MyADView.m */,
+				B55E94CA1BC53BCA002E67EF /* BitmapUtil.h */,
+				B55E94CB1BC53BCA002E67EF /* BitmapUtil.m */,
+				B55E94CC1BC53BCA002E67EF /* CommonUtil.h */,
+				B55E94CD1BC53BCA002E67EF /* CommonUtil.m */,
+				B55E94CE1BC53BCA002E67EF /* GameScene.h */,
+				B55E94CF1BC53BCA002E67EF /* GameScene.m */,
+				B55E94D01BC53BCA002E67EF /* GameScene.sks */,
+				B55E94D11BC53BCB002E67EF /* MyScene.h */,
+				B55E94D21BC53BCB002E67EF /* MyScene.m */,
+				B55E94D31BC53BCB002E67EF /* ViewController.h */,
+				B55E94D41BC53BCB002E67EF /* ViewController.m */,
+				B55E94D51BC53BCB002E67EF /* GameMenuViewController.h */,
+				B55E94D61BC53BCB002E67EF /* GameMenuViewController.m */,
+				B55E94D71BC53BCB002E67EF /* GameViewController.h */,
+				B55E94D81BC53BCB002E67EF /* GameViewController.m */,
+				B55E94D91BC53BCB002E67EF /* TextureHelper.h */,
+				B55E94DA1BC53BCB002E67EF /* TextureHelper.m */,
+				B55E94DB1BC53BCB002E67EF /* SKBlade.h */,
+				B55E94DC1BC53BCB002E67EF /* SKBlade.m */,
+				B55E94DD1BC53BCB002E67EF /* Main.storyboard */,
 				B55E93C11BC4C86D002E67EF /* Main.storyboard */,
 				B55E93C41BC4C86D002E67EF /* Images.xcassets */,
 				B55E93C61BC4C86D002E67EF /* LaunchScreen.xib */,
@@ -208,8 +261,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B55E93C81BC4C86D002E67EF /* LaunchScreen.xib in Resources */,
+				B55E94E41BC53BCB002E67EF /* GameScene.sks in Resources */,
 				B55E93C51BC4C86D002E67EF /* Images.xcassets in Resources */,
-				B55E93BD1BC4C86D002E67EF /* GameScene.sks in Resources */,
+				B55E94EB1BC53BCB002E67EF /* Main.storyboard in Resources */,
 				B55E93C31BC4C86D002E67EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,9 +282,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B55E93C01BC4C86D002E67EF /* GameViewController.m in Sources */,
+				B55E94DE1BC53BCB002E67EF /* GameCenterUtil.m in Sources */,
+				B55E94E51BC53BCB002E67EF /* MyScene.m in Sources */,
+				B55E94E81BC53BCB002E67EF /* GameViewController.m in Sources */,
+				B55E94E01BC53BCB002E67EF /* MyADView.m in Sources */,
+				B55E94E31BC53BCB002E67EF /* GameScene.m in Sources */,
+				B55E94E91BC53BCB002E67EF /* TextureHelper.m in Sources */,
+				B55E94E11BC53BCB002E67EF /* BitmapUtil.m in Sources */,
+				B55E94E71BC53BCB002E67EF /* GameMenuViewController.m in Sources */,
+				B55E94E61BC53BCB002E67EF /* ViewController.m in Sources */,
+				B55E94EA1BC53BCB002E67EF /* SKBlade.m in Sources */,
+				B55E94E21BC53BCB002E67EF /* CommonUtil.m in Sources */,
 				B55E93B81BC4C86D002E67EF /* AppDelegate.m in Sources */,
-				B55E93BB1BC4C86D002E67EF /* GameScene.m in Sources */,
+				B55E94DF1BC53BCB002E67EF /* MyUtils.m in Sources */,
 				B55E93B51BC4C86D002E67EF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,6 +490,7 @@
 				B55E93D91BC4C86D002E67EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B55E93DA1BC4C86D002E67EF /* Build configuration list for PBXNativeTarget "Try_Infinity_DodgeTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +499,7 @@
 				B55E93DC1BC4C86D002E67EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
